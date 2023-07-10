@@ -72,7 +72,7 @@ body{
 }
 .content3{
     /* margin: 0px 30px;  */
-    /* list-style-image: url(images/img4.gif);    */
+    list-style-image: url(images/img6.gif);   
 }
 .content3 a{
     color: #688000;
@@ -80,14 +80,21 @@ body{
 
 .archives{
     list-style-image: url(images/img4.gif);
+    left: 50%;
+    float: left;
+    padding-bottom: 15px;
 }
 .archives1{
     font-size: large;
-    margin: 0px 30px -13px 30px;
+    margin: 30px 30px -13px 30px;
 }
 .cartegories1{
     margin: 0px 30px -13px 30px;
 }
 .categories{
     list-style-image: url(images/img4.gif);
+    float: right;
+    right: 50%;
+    margin-right: 100px;
+    margin-top: 3%;
 }
