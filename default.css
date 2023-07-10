@@ -38,7 +38,7 @@ body{
     position: absolute;
     top: -11%;
     right: 17%;
-    color: #617703;
+    color: #688000;
     padding: 25px;  
       
 }
@@ -48,19 +48,45 @@ body{
     border-bottom-style: dotted;
     color: #688000;
 }
+.first{
+    font-size: x-large;
+    color: #617703;
+}
 
 .wrapper{
-    width: 480px;
+    width: 460px;
     background-color: #ffff;
+    font-size: smaller;
 }
 .inner_wrapper{
-    margin:0px 5px 0px;
+    margin: -30px 5px 0px 5px;
     background-image: url(images/img5.gif);
     background-size: cover;
-    box-shadow:0 0 10px black;
+}
+.inner_wrapper a{
+    border-bottom: 2px solid #688000;
+    text-decoration: none;
+    color: #688000;
 }
 .content3{
-    margin:-12px 5px 6px;
-    background-image: url(images/img6.gif);
-    background-size: cover;
+    margin: 0px 30px; 
+    list-style-image: url(images/img4.gif);   
+}
+.content3 a{
+    color: #688000;
+}
+.archives{
+    width: 50%;
+    float: left;
+}
+.archives1{
+    font-size: large;
+}
+.cartegories1{
+    font-size: large;
+}
+.categories{
+    float: right;
+    width: 50%;
+    left: -30%;
 }
