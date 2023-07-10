@@ -62,6 +62,7 @@ body{
 .inner_wrapper{
     margin: -30px 5px 0px 5px;
     background-image: url(images/img5.gif);
+    padding-bottom: 5%;  /*Padding creates external space*/
     background-size: cover;
 }
 .inner_wrapper a{
@@ -70,24 +71,23 @@ body{
     color: #688000;
 }
 .content3{
-    margin: 0px 30px; 
-    list-style-image: url(images/img4.gif);   
+    /* margin: 0px 30px;  */
+    /* list-style-image: url(images/img4.gif);    */
 }
 .content3 a{
     color: #688000;
 }
+
 .archives{
-    width: 50%;
-    float: left;
+    list-style-image: url(images/img4.gif);
 }
 .archives1{
     font-size: large;
+    margin: 0px 30px -13px 30px;
 }
 .cartegories1{
-    font-size: large;
+    margin: 0px 30px -13px 30px;
 }
 .categories{
-    float: right;
-    width: 50%;
-    left: -30%;
+    list-style-image: url(images/img4.gif);
 }
