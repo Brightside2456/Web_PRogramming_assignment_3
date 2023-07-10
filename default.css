@@ -57,6 +57,7 @@ body{
     width: 460px;
     background-color: #ffff;
     font-size: smaller;
+    margin-top: -1%;
 }
 .inner_wrapper{
     margin: -30px 5px 0px 5px;
